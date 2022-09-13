@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.per-info{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    padding: 10px;
+    color: #ffff00;
+    background-color: blue;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    display: block;
+}
+
+table{
+    width: 90vw;
+    border-spacing: 0px;
+    margin-top: 5%;
+    border: 3px solid black;
+}
+
+caption{
+    padding: 10px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+table td{
+    text-align: center;
+    padding: 25px;
+    font-weight: bold;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.head{
+    border-bottom: 3px solid black;
+    background-color: #eee;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.body-first{
+    border-left: 3px solid black;
+    width: 160px;
+}
+
+.right{
+    border-right: 3px solid black;
+    width: 100px;
+}
+
+.right-b{
+    border-right: 3px solid black;
+    padding: 0;
+}
+
+@media (max-width: 539px){
+
+    table{
+        margin-bottom: 20px;
+    }
+
+    table td{
+        padding: 15px;
+    }
+
+    .head{
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+@media (width: 280px){
+
+    table td{
+        padding: 10px;
+    }
+
+    .head{
+        font-size: 10px;
+    }
+}
